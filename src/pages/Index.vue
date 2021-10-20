@@ -24,7 +24,7 @@
               data-v-50cbff3e=""
               :alt="edge.node.title"
               width="2560"
-              :src="`${GRIDSOME_API_URL}${edge.node.cover.url}`"
+              :src="`${edge.node.cover.url}`"
               class="thumbnail"
             />
             <h3 data-v-50cbff3e="" class="project-title">
