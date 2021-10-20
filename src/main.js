@@ -3,7 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '../static/assets/css/index.css'
-
+console.log(process.env.GRIDSOME_API_URL)
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.mixin({
