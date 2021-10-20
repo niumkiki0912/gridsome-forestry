@@ -39,7 +39,7 @@ module.exports = {
     ],
     StrapiProject: [
       {
-        path: '/Project/:id',
+        path: '/project/:id',
         component: './src/templates/Project.vue'
       }
     ]
